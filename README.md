@@ -18,3 +18,16 @@ Here we give a brief overview of the code:
 - ```compute_results.ipynb```: Compute accuracies, confidence intervals.
 - ```figures.ipynb```: Generate the figures in the paper.
 - ```forgetting_curves.ipynb```: Generate the forgetting curves.
+
+## Citing our work
+
+If you use this software in your research, we encourage you to cite our paper.
+
+```bib
+@inproceedings{bordt2024forgetting,
+  author    = {Sebastian Bordt, Suraj Srinivas, Valentyn Boreiko, and Ulrike von Luxburg},
+  title     = {How much can we forget about Data Contamination? },
+  booktitle = {Second NeurIPS Workshop on Attributing Model Behavior at Scale},
+  year      = {2024}
+ }
+```
