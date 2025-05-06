@@ -10,6 +10,16 @@ This is the code repository for the paper ["How much can we forget about Data Co
 
 # Overview
 
+TODO
+
+# Using the de-duplicated benchmark questions for your own project
+
+TODO
+
+# Reproducing the results in our paper
+
+details ...
+
 Here we give a brief overview of the code:
 
 - ```evaluation/```: Contains the code to format benchmark questions, de-duplicate them, and generate the differnt splits that we use for contamination.
@@ -19,15 +29,19 @@ Here we give a brief overview of the code:
 - ```figures.ipynb```: Generate the figures in the paper.
 - ```forgetting_curves.ipynb```: Generate the forgetting curves.
 
+# Checkpoints
+
+we make checkpoints available ...
+
 ## Citing our work
 
 If you use this software in your research, we encourage you to cite our paper.
 
 ```bib
-@inproceedings{bordt2024forgetting,
+@inproceedings{bordt2025forgetting,
   author    = {Sebastian Bordt, Suraj Srinivas, Valentyn Boreiko, and Ulrike von Luxburg},
   title     = {How much can we forget about Data Contamination? },
-  booktitle = {Second NeurIPS Workshop on Attributing Model Behavior at Scale},
-  year      = {2024}
+  booktitle = {ICML},
+  year      = {2025}
  }
 ```
