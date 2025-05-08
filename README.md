@@ -31,7 +31,7 @@ Here we give a brief overview of the code:
 
 # Checkpoints
 
-we make checkpoints available ...
+Model checkpoints are available [here](https://drive.google.com/drive/folders/19fERdR4bmfDmNqkdYass21Jd7ccf9XN3?usp=sharing).
 
 ## Citing our work
 
