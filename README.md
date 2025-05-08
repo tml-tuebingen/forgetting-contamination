@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?color=g&style=plastic)](https://opensource.org/licenses/MIT)
 
-This is the code repository for the paper ["How much can we forget about Data Contamination?"](https://arxiv.org/abs/2410.03249) by Sebastian Bordt, Suraj Srinivas, Valentyn Boreiko, and Ulrike von Luxburg.     
+This is the code repository for the ICML'25 paper ["How much can we forget about Data Contamination?"](https://arxiv.org/abs/2410.03249).     
 
 # Overview
 
@@ -24,7 +24,7 @@ This repository contains the code that can be used to reproduce the results in o
 
 - ```llm.c/```: The code to contaminate, train, and evaluate small models.
 - ```evaluation/```: The code to format benchmark questions, de-duplicate them, and generate the differnt splits that we use for contamination.
-- ```olmo/```: The code to download specific training batches, contaminate them, and insert them back into the olmo pre-training data. This code depends on https://github.com/allenai/OLMo.
+- ```olmo/```: The code to download specific training batches, contaminate them, and insert them back into the olmo pre-training data.
 - ```compute_results.ipynb```: Compute accuracies, confidence intervals.
 - ```figures.ipynb```: Generate the figures in the paper.
 - ```forgetting_curves.ipynb```: Generate the forgetting curves.
