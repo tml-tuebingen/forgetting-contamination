@@ -12,7 +12,7 @@ This is the code repository for the ICML'25 paper ["How much can we forget about
 
 TODO
 
-## Using the de-duplicated benchmark questions for your own project
+## Using the de-duplicated benchmark questions
 
 Many popular LLM benchmarks contain duplicate questions. For this project, we created a universe of 44000 benchmark questions whose ground-truth answers are sufficiently unique (for details, see the Section "Filtering Near-Duplicate Benchmark Questions" in our paper). We provide these benchmark questions [here](https://drive.google.com/drive/folders/1HN1G4ymhzkJw5VTra5wyYv_USYOaeEms?usp=drive_link). The format of the benchmark questions matches their respective format on Huggingface. 
 
