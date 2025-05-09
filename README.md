@@ -35,6 +35,14 @@ The OLMo experiments depend on https://github.com/allenai/OLMo. We worked with t
 
 Model checkpoints are available [here](https://drive.google.com/drive/folders/19fERdR4bmfDmNqkdYass21Jd7ccf9XN3?usp=sharing).
 
+## Weights & Biases Logs
+
+For reproducibility, we additionally share the following Weights & Biases Logs:
+
+OLMo-1B: [Link](https://api.wandb.ai/links/train-on-test/1r02w9og)
+
+OLMO-7B: [Link](https://api.wandb.ai/links/train-on-test/60384zi6)
+
 ## Citing our work
 
 If you use this software in your research, we encourage you to cite our paper.
