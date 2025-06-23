@@ -24,7 +24,7 @@ Many popular LLM benchmarks contain duplicate questions. For this project, we cr
 - https://huggingface.co/datasets/sbordt/forgetting-contamination-mmlu
 - https://huggingface.co/datasets/sbordt/forgetting-contamination-social_i_qa
 
-The format of the benchmark questions is the same as in the respective original repository, with an additional column, "split-id," that can be used to partition the benchmark questions into different subsets. We used the questions with split-id=0 as holdout, and the other splits were contaminated as specified [here](https://github.com/tml-tuebingen/forgetting-contamination/blob/main/llm.c/create_contaminated_dataset.py). 
+The format of the benchmark questions is the same as in the respective original repositories, with an additional column, "split-id," that can be used to partition the benchmark questions into different subsets. We used the questions with split-id=0 as holdout, and the other splits were contaminated as specified [here](https://github.com/tml-tuebingen/forgetting-contamination/blob/main/llm.c/create_contaminated_dataset.py). 
 
 To work with the deduplicated benchmark questions, you can work with the provided repositories in the same way that you would work with the original repositories (because the format of the questions is the same).
 
