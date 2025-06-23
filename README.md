@@ -10,13 +10,23 @@ This is the code repository for the ICML'25 paper ["How much can we forget about
 
 # Overview
 
-TODO
+This repository contains the code to reproduce the results in our paper. We also provide the deduplicated benchmark questions, as well as model checkpoints and our training logs for OLMo.
 
 ## Using the de-duplicated benchmark questions
 
-Many popular LLM benchmarks contain duplicate questions. For this project, we created a universe of 44000 benchmark questions whose ground-truth answers are sufficiently unique (for details, see the Section "Filtering Near-Duplicate Benchmark Questions" in our paper). We provide these benchmark questions [here](https://drive.google.com/drive/folders/1HN1G4ymhzkJw5VTra5wyYv_USYOaeEms?usp=drive_link). The format of the benchmark questions matches their respective format on Huggingface. 
+Many popular LLM benchmarks contain duplicate questions. For this project, we created a universe of 44000 benchmark questions whose ground-truth answers were deduplicated using fuzzy string matching (for details, see the Section "Filtering Near-Duplicate Benchmark Questions" in our paper). We provide the deduplicated benchmark questions on Huggingface
 
-The benchmark questions contain an additional column, "split-id," that can be used to partition the benchmark questions into different subsets. For example, we used the questions with split-id=0 as holdout. 
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-hellaswag
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-winogrande
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-piqa
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-boolq
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-arc-easy
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-mmlu
+- https://huggingface.co/datasets/sbordt/forgetting-contamination-social_i_qa
+
+The format of the benchmark questions is the same as in the respective original repository, with an additional column, "split-id," that can be used to partition the benchmark questions into different subsets. We used the questions with split-id=0 as holdout, and the other splits were contaminated as specified [here](https://github.com/tml-tuebingen/forgetting-contamination/blob/main/llm.c/create_contaminated_dataset.py). 
+
+To work with the deduplicated benchmark questions, you can work with the provided repositories in the same way that you would work with the original repositories (because the format of the questions is the same).
 
 ## Reproducing the results in our paper
 
