@@ -30,7 +30,7 @@ You can use the provided repositories in the same way that you would use the ori
 
 ## Reproducing the results in our paper
 
-This repository contains the code that can be used to reproduce the results in our paper.
+Here is a brief overview of the code:
 
 - ```llm.c/```: The code to contaminate, train, and evaluate small models.
 - ```evaluation/```: The code to format benchmark questions, de-duplicate them, and generate the differnt splits that we use for contamination.
