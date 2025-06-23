@@ -55,8 +55,6 @@ OLMO-7B: [Link](https://api.wandb.ai/links/train-on-test/60384zi6)
 
 ## Citing our work
 
-If you use this software in your research, we encourage you to cite our paper.
-
 ```bib
 @inproceedings{bordt2025forgetting,
   author    = {Sebastian Bordt, Suraj Srinivas, Valentyn Boreiko, and Ulrike von Luxburg},
