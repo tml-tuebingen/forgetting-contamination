@@ -59,7 +59,7 @@ If you use the code or the deduplicated benchmark questions in your research, we
 
 ```bib
 @inproceedings{bordt2025forgetting,
-  author    = {Sebastian Bordt, Suraj Srinivas, Valentyn Boreiko, and Ulrike von Luxburg},
+  author    = {Sebastian Bordt and Suraj Srinivas and Valentyn Boreiko and Ulrike von Luxburg},
   title     = {How much can we forget about Data Contamination?},
   booktitle = {ICML},
   year      = {2025}
