@@ -53,6 +53,39 @@ OLMo-1B: [Link](https://api.wandb.ai/links/train-on-test/1r02w9og)
 
 OLMO-7B: [Link](https://api.wandb.ai/links/train-on-test/60384zi6)
 
+## Absolute Accuracies in Figure 1 of the paper
+
+In Figure 1 in the paper, we report the accuracy differences between the different splits of benchmark questions. Here we additionally provide the absolute accuracies of the different splits. 
+
+#### Figure 1(a)
+
+| Model Size | Holdout | 4x    | 12x   | 32x   | 144x  |
+|------------|---------|-------|-------|-------|-------|
+| 124M       | 44.16   | 49.54 | 54.98 | 73.05 | 93.20 |
+| 350M       | 44.72   | 55.69 | 69.90 | 89.20 | 95.50 |
+| 774M       | 45.78   | 67.30 | 85.16 | 94.65 | 97.25 |
+| 1558M      | 46.90   | 75.48 | 91.04 | 95.70 | 97.55 |
+
+#### Fig 1(b)
+
+| Model Size | Holdout | 4x | 12x | 32x | 144x |
+|------------|---------|----|----|-----|------|
+| 2x Chinchilla | 43.31 | 50.40 | 59.84 | 80.85 | 94.85 |
+| 4x Chinchilla | 44.52 | 50.75 | 58.10 | 78.35 | 93.65 |
+| 8x Chinchilla | 45.14 | 49.16 | 51.84 | 64.15 | 85.15 |
+| 15x Chinchilla | 46.45 | 48.51 | 47.88 | 51.20 | 67.10 |
+
+#### Fig 1(c) 
+
+| Model Size | Holdout | 4x | 12x | 32x | 144x |
+|------------|---------|----|----|-----|------|
+| 124M | 42.22 | 48.14 | 56.92 | 80.70 | 96.45 |
+| 350M | 44.72 | 55.69 | 69.90 | 89.20 | 95.50 |
+| 774M | 49.16 | 64.76 | 81.30 | 92.95 | 96.05 |
+| 1.6B | 52.06 | 67.61 | 82.32 | 91.85 | 95.40 |
+
+The result for Figure 1 (c) is Table 1 in the paper.
+
 ## Citing our work
 
 If you use the code or the deduplicated benchmark questions in your research, we encourage you to cite our paper. 
