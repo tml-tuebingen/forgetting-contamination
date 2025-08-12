@@ -55,7 +55,7 @@ OLMO-7B: [Link](https://api.wandb.ai/links/train-on-test/60384zi6)
 
 ## Absolute Accuracies in Figure 1 of the paper
 
-In Figure 1 in the paper, we report the accuracy differences between the different splits of benchmark questions. Here we additionally provide the absolute accuracies of the different splits. 
+In Figure 1 in the paper, we report the accuracy differences between the different splits of benchmark questions. Here, we additionally provide the absolute accuracies of the respective splits. 
 
 #### Figure 1(a)
 
