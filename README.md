@@ -31,7 +31,7 @@ The format of the benchmark questions is the same as in the respective original 
 
 You can use the provided repositories in the same way that you would use the original repositories (because the format of the questions remains the same).
 
-## Reproducing the results in our paper
+## Reproducing the results in the paper
 
 Here is a brief overview of the code:
 
@@ -46,7 +46,18 @@ The OLMo experiments depend on https://github.com/allenai/OLMo. We worked with t
 
 ## Checkpoints
 
-Model checkpoints are available [here](https://drive.google.com/drive/folders/19fERdR4bmfDmNqkdYass21Jd7ccf9XN3?usp=sharing).
+We provide the final model checkpoints for both the small models and OLMo. The checkpoints for the small models contain the model state dicts (among others). See our [eval script](https://github.com/tml-tuebingen/forgetting-contamination/blob/main/llm.c/eval_gpt.py) for how to load the checkpoints. 
+
+- All small checkpoints: [Link to Google Drive Folder](https://drive.google.com/drive/folders/1VZwAgDJ8fNk654OVb3eDku_GWHiourqp?usp=drive_link)
+- Figure 1(a): [124M](https://drive.google.com/drive/folders/1w7rmYv30W83CLWmT7lrIJ6_MBJgrhFMm?usp=drive_link), [350M](https://drive.google.com/drive/folders/10k3IFDF2XaDCrJeGV8szSGdNYK0gIWJp?usp=drive_link), [774M](https://drive.google.com/drive/folders/1n1EXbz8Kofp9zx805cOyVnlPTcFpwD1d?usp=drive_link), [1.6B](https://drive.google.com/drive/folders/1QdKa6twT-z6qbet9wRwaMhD6Chryoui2?usp=drive_link)
+- Figure 1(b): [2x](https://drive.google.com/drive/folders/1Zr7T5J74qS7JUJ89ORUKqNKhrPisSF2v?usp=drive_link), [4x](https://drive.google.com/drive/folders/1YGsBm2EXIhJCn1CiORONQnSa2EoTiqyb?usp=drive_link), [8x](https://drive.google.com/drive/folders/1VRmNfQIgFQaSAo8JeDyBktT_RfFwYwG2?usp=drive_link), [15x](https://drive.google.com/drive/folders/1ka9EneiymU4uFkdWyCHmfp-EZeMe3oQz?usp=drive_link)
+- Figure 1(c): [124M](https://drive.google.com/drive/folders/1P4D_tdm-mfLOtNokzIP4RYsGgssSsZPr?usp=drive_link), [350M](https://drive.google.com/drive/folders/10k3IFDF2XaDCrJeGV8szSGdNYK0gIWJp?usp=drive_link), [774M](https://drive.google.com/drive/folders/1-c4EuP88kaAnLpyCUpz8PgVSGT4vdAl4?usp=drive_link), [1.6B](https://drive.google.com/drive/folders/1fk3JOtxYxJ1v-OAaFCNTijNCBkRPX73h?usp=drive_link)
+- OLMo: [OLMo-1B](https://drive.google.com/drive/folders/1Bb2yarSUVHlIALvP_zdQi-T-wv57vesD?usp=drive_link), [OLMo-7B](https://drive.google.com/drive/folders/1S8tmUraJ9-BGiNpKygF0le2DhsWJ6VUH?usp=drive_link)
+
+You can use these checkpoints to perform additional evaluations. 
+
+In addition, the results of the evaluations in the paper for the small models are contained in an  ```evals``` folders for every checkpoint.
+
 
 ## Weights & Biases Logs
 
