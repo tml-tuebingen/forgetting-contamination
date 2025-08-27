@@ -56,7 +56,7 @@ We provide the final model checkpoints for both the small models and OLMo. The c
 
 You can use these checkpoints to perform additional evaluations. 
 
-In addition, the results of the evaluations in the paper for the small models are contained in an  ```evals``` folders for every checkpoint.
+In addition, the results of the evaluations in the paper for the small models are contained in  ```evals``` folders for every checkpoint.
 
 
 ## Weights & Biases Logs
