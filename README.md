@@ -63,9 +63,9 @@ In addition, the results of the evaluations in the paper for the small models ar
 
 For reproducibility, we additionally share the following Weights & Biases Logs:
 
-OLMo-1B: [Link](https://api.wandb.ai/links/train-on-test/1r02w9og)
+OLMo-1B: [Link](https://api.wandb.ai/links/public-runs/czzjrari)
 
-OLMO-7B: [Link](https://api.wandb.ai/links/train-on-test/60384zi6)
+OLMO-7B: [Link](https://api.wandb.ai/links/public-runs/x4pllyju)
 
 ## Absolute Accuracies in Figure 1 of the paper
 
